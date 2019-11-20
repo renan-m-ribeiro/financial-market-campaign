@@ -1,0 +1,129 @@
+body {
+    display: block;
+    margin: 0;
+    background-color: #77dd77;
+    font-family: "Roboto", sans-serif;
+    color: #FFFFFF;
+}
+
+header {
+    font-family: "Open Sans Condensed", sans-serif;
+    text-align: center;
+    background-color: #000000;
+    padding: 25px;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 15px #000000;
+}
+
+footer {
+    color: #000;
+    font-family: "Ubuntu", sans-serif;
+    box-shadow: 0px 0px 15px #000000;
+    border-top: #000 solid 5px;
+    background-color: rgb(214, 214, 214);
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer div {
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.text-box {
+    color: dimgray;
+    font-family: "Open Sans Condensed", sans-serif;
+    display: block;
+    padding-left: 15px;
+    font-size: 16px;
+    height: 30px;
+    width: 80%;
+    margin: 20px auto 0 auto;
+    border-radius: 10px;
+    border: inherit;
+    min-width: 80%;
+}
+
+.btn {
+    display: block;
+    transition-duration: 0.5s;
+    background-color: #ff6961;
+    color: #FFFFFF;
+    font-size: 200%;
+    border-radius: 10px;
+    margin: 50px 15% 0 5%;
+    height: 60px;
+    width: 90%;
+    border: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #cf5953;
+}
+
+.container-main {
+    text-align: center;
+    margin: 25px 0 5px 10%;
+    height: 500px;
+    width: 40%;
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    max-width: 40vw;
+    min-width: 250px;
+    min-height: 550px;
+}
+
+.container-main h1 {
+    font-size: 48px;
+    font-family: "Kaushan Script", sans-serif;
+    box-sizing: border-box;
+}
+
+.container-main p {
+    font-size: 24px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.container-form {
+    margin: 50px 0 0 10%;
+    width: 30%;
+    display: block;
+    float: left;
+    background-color: #585f4f;
+    border-radius: 20px;
+    box-shadow: 3px 3px 8px #000;
+    display: block;
+    max-width: 40vw;
+    min-width: 250px;
+    padding-bottom: 20px;
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+}
+
+.container-form h1 {
+    margin-top: 5%;
+    font-size: 40px;
+}
+
+.container-form p {
+    margin: 0 5%;
+    font-size: 20px;
+    padding-bottom: 5%;
+}
+
+.img-01 {
+    max-width: 40vw;
+    min-width: 250px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #000;
+}
